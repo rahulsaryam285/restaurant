@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 812px;
+}
+/* 
+body{
+    width: 375px;
+} */
+
+
+
+.header{
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.head{
+    flex-grow: 1;
+    font-size: 1.375rem;
+    padding-left: 2rem;
+} 
+
+.icon{
+    font-size: 1.5rem;
+    padding-right: 1.2rem;
+
+}
+
+.header p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:green;
+}
+
+.head-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8125rem;
+    color: grey;
+    text-align: center;
+}
+
+
+.card{
+    margin-top: 2.5rem;
+    display: flex;
+    overflow-x: auto;
+    
+    }
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+
+.img{
+    width: 95%;
+}
+
+.meal{
+    display: flex;
+    min-width: 295px;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8% ); */
+    border-radius: 11px;
+    overflow: hidden;
+    margin: 0 1rem 3.5rem 1rem ;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(rgb(255, 255, 255), #f1f3f5);
+
+}
+
+
+.detail{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem 0 0 1.5rem;
+}
+
+
+.name{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 1rem;
+    letter-spacing: 2.24px;
+    
+    
+}
+
+
+.date{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    /* padding-right: rem; */
+    letter-spacing: 1.92px;
+}
+
+
+.like{
+    padding-top: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-right: 1.2rem;
+}
+
+
+.detile-text{
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 0.875rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+}
+
+
+
+
+.btn{
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 11px;
+    border: 2px solid #ff8787;
+    background-color: #f1f3f5;
+    color: #ff6b6b;
+    text-transform: uppercase;
+} 
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    color: gray;
+    padding: 0 0.8rem 0 0.8rem;
+}
+
+.feature-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.option{
+    text-align: center;
+}
+
+.feature-title-red{
+    color: rgb(219, 78, 78);
+} 
+
+
+
+
+
+
+
